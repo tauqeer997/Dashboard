@@ -1,0 +1,101 @@
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.task-header-left h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.task-header-left span {
+  font-size: 14px;
+  color: #6B7280;
+}
+
+.task-percent {
+  font-size: 16px;
+  font-weight: 600;
+  color: #10B981;
+  background-color: #E0F2F1;
+  padding: 2px 6px;
+  border-radius: 6px;
+  margin-left: 8px;
+}
+
+.task-legend-header {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-legend-header li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.task-legend-header li:last-child {
+  margin-bottom: 0;
+}
+
+.task-legend-header .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.task-legend-header .dot.todo { background-color: #3B82F6; }
+.task-legend-header .dot.inprogress { background-color: #F59E0B; }
+.task-legend-header .dot.finish { background-color: #10B981; }
+
+.task-legend-header .legend-percent {
+  margin-left: 16px;
+  font-weight: 500;
+  color: #6B7280;
+}
+
+.line-chart-container {
+  position: relative;
+  width: 100%;
+  flex-grow: 1;
+  min-height: 120px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.line-chart-container svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.task-marker {
+  position: absolute;
+  background-color: #6366F1;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.task-marker strong {
+  display: block;
+  font-size: 14px;
+}
+
+.chart-axis {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #6B7280;
+  padding: 0 10px;
+  margin-top: 8px;
+}

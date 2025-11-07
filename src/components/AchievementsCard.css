@@ -1,0 +1,26 @@
+.achievements-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  height: 100%;
+  padding-top: 8px;
+}
+
+.achievement-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  min-height: 60px;
+  font-size: 28px;
+}
+
+.achievement-item.item-1 { background-color: #FEF3C7; }
+.achievement-item.item-2 { background-color: #F0F9FF; }
+.achievement-item.item-3 { background-color: #F3E8FF; }
+.achievement-item.item-4 { background-color: #DBEAFE; }
+
+.achievement-item.item-1 svg { color: #F59E0B; }
+.achievement-item.item-2 svg { color: #3B82F6; }
+.achievement-item.item-3 svg { color: #A78BFA; }
+.achievement-item.item-4 svg { color: #3B82F6; }
